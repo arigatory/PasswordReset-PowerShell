@@ -1,0 +1,11 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="Password Reset" Height="391" Width="696">
+    <Grid>
+        <Label Content="User Name:" HorizontalAlignment="Left" Margin="92,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.843,1.003" Width="80" Height="35"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="97,137,0,0" VerticalAlignment="Top" Height="31" Width="70" RenderTransformOrigin="0.571,1.614"/>
+        <TextBox Name="UserName" HorizontalAlignment="Left" Margin="182,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="430" Height="35"/>
+        <TextBox Name="Password" HorizontalAlignment="Left" Margin="182,137,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="430" Height="31" IsReadOnly="True" Background="#FFDED8D8"/>
+        <Button Name="GeneratePassword" Content="Generate Password" HorizontalAlignment="Left" Margin="92,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.833,-2.703" Height="78" Width="166"/>
+        <Button Name="Update" Content="Update and Send" HorizontalAlignment="Left" Margin="435,217,0,0" VerticalAlignment="Top" Width="177" Height="78"/>
+    </Grid>
+</Window>
